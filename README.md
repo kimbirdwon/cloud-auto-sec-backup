@@ -27,6 +27,9 @@ AWS 인프라를 Terraform과 Ansible로 자동화하고, Kubernetes 환경에 �
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white&labelColor=F46800)
 
 ## ◆ Infrastructure Design Highlights
+
+<img width="3984" height="2244" alt="Image" src="https://github.com/user-attachments/assets/7cfe18bb-944f-43e6-8827-aeb47d8d87d7" />
+
 ### Network & Security
 
 - GitHub Secrets 기반 민감정보 관리
@@ -90,3 +93,4 @@ AWS 인프라를 Terraform과 Ansible로 자동화하고, Kubernetes 환경에 �
 3. VPC Private Subnet / Route Table 삭제
 
 4. Security Group 삭제
+

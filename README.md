@@ -7,7 +7,8 @@
 
 Terraform과 Ansible을 활용하여 AWS 인프라를 코드 기반으로 자동화하고, Kubernetes 환경에 애플리케이션을 배포했습니다.  
 또한 보안 그룹 설계와 WAF 적용, RDS 자동 백업 구성 및 장애 시 RDS 복구 기능을 구현했습니다.  
-VictoriaMetrics와 Grafana 기반 모니터링을 구축하여 수동 콘솔 작업 없이 재현 가능하고 안정적인 클라우드 아키텍처를 제공합니다.
+VictoriaMetrics와 Grafana 기반 모니터링을 구축하여,  
+수동 콘솔 작업 없이 쉽게 재현 가능한 안정적인 클라우드 아키텍처를 제공합니다.
 
 ### Tech Stack
 
@@ -112,3 +113,4 @@ VictoriaMetrics와 Grafana 기반 모니터링을 구축하여 수동 콘솔 작
 - WAF(ModSecurity) 기반 웹 애플리케이션 보안 강화
 - VictoriaMetrics / Grafana 기반 모니터링 시스템 구축
 - Amazon RDS 자동 백업 및 장애 시 복구 지원
+

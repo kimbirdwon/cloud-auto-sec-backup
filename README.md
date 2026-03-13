@@ -49,6 +49,8 @@ AWS 인프라를 Terraform과 Ansible로 자동화하고, Kubernetes 환경에 �
 
 ### Monitoring
 
+<img width="1833" height="923" alt="Image" src="https://github.com/user-attachments/assets/26796d76-e5fe-4f47-8429-17af2c3834a8" />
+
 - VictoriaMetrics 메트릭 수집
 - Grafana 대시보드 구성
 - Kubernetes Pod / Service 상태 모니터링 및 웹 공격 탐지
@@ -93,4 +95,5 @@ AWS 인프라를 Terraform과 Ansible로 자동화하고, Kubernetes 환경에 �
 3. VPC Private Subnet / Route Table 삭제
 
 4. Security Group 삭제
+
 

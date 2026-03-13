@@ -1,7 +1,7 @@
 name: 7th-room-project-sg-deploy
 
-on:
-  workflow_dispatch:
+on: []
+# workflow_dispatch: 제거 (퍼블릭 리포로 전환 위함)
 
 jobs:
   terraform:

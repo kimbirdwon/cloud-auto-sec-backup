@@ -1,5 +1,5 @@
 # Automated AWS Infrastructure with Security & Backup
-
+test
 **Team Project (5 members)**  
 <img width="50" alt="Image" src="https://github.com/user-attachments/assets/15f851ae-b285-434b-8057-c523f60bf50e" /> Infra 부트캠프 과정에서 진행된 팀 프로젝트입니다.
 
@@ -113,6 +113,7 @@ VictoriaMetrics와 Grafana 기반 모니터링을 구축하여,
 - WAF(ModSecurity) 기반 웹 애플리케이션 보안 강화
 - VictoriaMetrics / Grafana 기반 모니터링 시스템 구축
 - Amazon RDS 자동 백업 및 장애 시 복구 지원
+
 
 
 

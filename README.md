@@ -1,7 +1,7 @@
 # Automated AWS Infrastructure with Security & Backup
 
 **Team Project (5 members)**  
-<img width="50" alt="Image" src="https://github.com/user-attachments/assets/15f851ae-b285-434b-8057-c523f60bf50e" /> Infra 부트캠프 과정에서 진행된 팀 프로젝트입니다.
+kt cloud Infra 부트캠프 과정에서 진행된 팀 프로젝트입니다.
 
 ## ◆ Architecture Overview
 

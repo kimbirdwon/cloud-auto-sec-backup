@@ -1,7 +1,14 @@
 # Automated AWS Infrastructure with Security & Backup
 
-**Team Project (5 members)**  
-kt cloud Infra 부트캠프 과정에서 진행된 팀 프로젝트입니다.
+> **kt cloud 기본 프로젝트**  
+> Terraform과 Ansible 기반으로 AWS 인프라 자동화 및 보안 · 백업 구축
+
+<p align="center">
+  <br>
+  <b> Demo Video </b><br>
+  <img width="130" src="https://github.com/user-attachments/assets/1bc77c19-bd07-4961-8044-b32cf0096200" /><br>
+  <br>
+</p>
 
 ## ◆ Architecture Overview
 

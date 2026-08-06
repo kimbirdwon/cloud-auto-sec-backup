@@ -1,21 +1,15 @@
-# Automated AWS Infrastructure with Security & Backup
-
-> **kt cloud 기본 프로젝트**  
-> Terraform과 Ansible 기반으로 AWS 인프라 자동화 및 보안 · 백업 구축
+<h1 align="center">Automated AWS Infrastructure with Security & Backup</h1>
 
 <p align="center">
-  <br>
-  <b> Demo Video </b><br>
-  <img width="130" src="https://github.com/user-attachments/assets/1bc77c19-bd07-4961-8044-b32cf0096200" /><br>
-  <br>
+  <a href="https://ktcloud-techup.com/"><img src="https://img.shields.io/badge/Training-kt%20cloud-2F80F7?style=flat&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BCjxwYXRoIGQ9Im0yIDEwIDEwLTUgMTAgNS0xMCA1TDIgMTBaIi8%2BCjxwYXRoIGQ9Ik02IDEydjVjMyAyIDkgMiAxMiAwdi01Ii8%2BCjxwYXRoIGQ9Ik0yMiAxMHY2Ii8%2BCjwvc3ZnPg%3D%3D"/></a>
+  <a href="https://youtu.be/PvqlwL8Gwkk?si=IBP84CdjB3xSfbuC"><img src="https://img.shields.io/badge/YouTube-Demo-D63A38?style=flat&logo=youtube&logoColor=white"/></a>
 </p>
 
-## ◆ Architecture Overview
+## Architecture Overview
 
-Terraform과 Ansible을 활용하여 AWS 인프라를 코드 기반으로 자동화하고, Kubernetes 환경에 애플리케이션을 배포했습니다.  
-또한 보안 그룹 설계와 WAF 적용, RDS 자동 백업 구성 및 장애 시 RDS 복구 기능을 구현했습니다.  
-VictoriaMetrics와 Grafana 기반 모니터링을 구축하여,  
-수동 콘솔 작업 없이 쉽게 재현 가능한 안정적인 클라우드 아키텍처를 제공합니다.
+Terraform과 Ansible을 활용하여 AWS 인프라를 코드 기반으로 자동화하고 Kubernetes 환경에 애플리케이션을 배포했습니다.
+
+또한 보안 그룹 설계, WAF 적용, RDS 자동 백업 및 복구 구성을 통해 안정성을 강화했으며, VictoriaMetrics와 Grafana 기반 모니터링 환경을 구축하여 인프라와 서비스 상태를 실시간으로 확인할 수 있도록 구성했습니다.
 
 ### Tech Stack
 
@@ -29,7 +23,7 @@ VictoriaMetrics와 Grafana 기반 모니터링을 구축하여,
 ![VictoriaMetrics](https://img.shields.io/badge/-VictoriaMetrics-621773?logo=victoriametrics&logoColor=white)
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 
-## ◆ Infrastructure Architecture
+## Infrastructure Architecture
 
 <img width="3984" height="2244" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/7cfe18bb-944f-43e6-8827-aeb47d8d87d7" />
 
@@ -63,7 +57,7 @@ VictoriaMetrics와 Grafana 기반 모니터링을 구축하여,
 - Kubernetes Pod / Service 상태 모니터링
 - 웹 트래픽 및 공격 패턴 시각화
 
-## ◆ Deployment Process
+## Deployment Process
 
 1. **Security Group 배포**
 
@@ -94,7 +88,7 @@ VictoriaMetrics와 Grafana 기반 모니터링을 구축하여,
    rds-dr 브랜치 → GitHub Actions Workflow 실행 → RDS 복구
    ```
 
-## ◆ Resource Cleanup Guide
+## Resource Cleanup Guide
 
 > [!NOTE]
 > 불필요한 비용 발생을 방지하기 위해 리소스 삭제 시 아래 순서를 따릅니다.
@@ -112,7 +106,7 @@ VictoriaMetrics와 Grafana 기반 모니터링을 구축하여,
 
 4. Security Group 삭제
 
-## ◆ Key Features
+## Key Features
 
 - Terraform 기반 AWS 인프라 자동화 (Infrastructure as Code)
 - GitHub Actions 기반 CI/CD 파이프라인 구축
